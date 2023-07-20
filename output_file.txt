@@ -1,0 +1,8 @@
+origin/feature-OC851234-Desc bea/weblogic/fuentes/EjbBCI/wcrop/infraestructuradenegocios/notificaciones/dao/ServiceDAO.java
+
+origin/feature-OTFC1234-Desc bea/weblogic/fuentes/EjbBCI/wcrop/infraestructuradenegocios/notificaciones/dao/ServiceDAO.java
+
+origin/feature-OC145234-Desc bea/weblogic/fuentes/EjbBCI/wcrop/infraestructuradenegocios/notificaciones/dao/NotificacionWebDAO.java
+
+origin/feature-OC6311234-Desc bea/weblogic/fuentes/EjbBCI/wcrop/infraestructuradenegocios/notificaciones/dao/NotificacionesWebService.jar
+

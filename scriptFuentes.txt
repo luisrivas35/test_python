@@ -1,0 +1,65 @@
+#!/bin/bash
+
+ruta=$(pwd)
+
+cat lista.txt | while read linea
+
+	do
+	
+rutaCopia="$ruta/OC$oc/$linea"
+
+echo $rutaCopia
+
+rutaDirectorio="${rutaCopia%/*}"
+echo $rutaDirectorio
+
+mkdir -p $rutaDirectorio
+
+rutaDirectorioSinPWD="${linea%/*}"
+
+echo $rutaDirectorioSinPWD
+
+VARNAME="${linea%%[[:cntrl:]]}"
+echo $VARNAME
+
+cp -p $VARNAME $rutaDirectorio
+
+
+	done
+	
+	echo *****************end*****************
+	sleep 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
